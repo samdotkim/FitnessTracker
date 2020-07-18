@@ -8,4 +8,4 @@ On loading the page it detects their most recent workout, to which they can add 
 For this project I created a Mongo database using a Mongoose schema, and handled the API and HTML routes using Express. 
 API routes include find, findByIdAndUpdate, create, and remove. 
 
-Deployed URL: [http://agile-thicket-87690.herokuapp.com/](http://agile-thicket-87690.herokuapp.com/)
+Deployed URL: [https://samdotkim-fitnesstracker.herokuapp.com//](https://samdotkim-fitnesstracker.herokuapp.com//)
