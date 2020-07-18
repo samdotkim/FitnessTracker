@@ -10,8 +10,9 @@ const Workout = require("./models/workoutModel.js");
 
 var PORT = process.env.PORT || 3000;
 
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true });
+//mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true });
 
+mongoose.connect(process.env.MONGODB_URI || "mongodb://user1:password1@ds213338.mlab.com:13338/heroku_tnnhn2r6", { useNewUrlParser: true });
 
 app.use(logger("dev"));
 
